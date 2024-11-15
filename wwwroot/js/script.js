@@ -40,7 +40,6 @@
         popularSearchesContainer.appendChild(link);
     });
 
-    // Populate popular cities
     const popularCitiesContainer = document.getElementById('popularCities');
     popularCities.forEach(city => {
         const link = document.createElement('a');
